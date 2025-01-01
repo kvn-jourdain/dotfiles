@@ -18,6 +18,7 @@ return {
         return not vim.tbl_contains({ "copilot" }, v.name)
       end, opts.sources)
       table.insert(opts.sources, { name = "emoji" })
+      table.insert(opts.sources, { name = "supermaven" })
     end,
   },
 }

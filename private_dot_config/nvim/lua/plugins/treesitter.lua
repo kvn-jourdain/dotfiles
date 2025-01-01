@@ -23,6 +23,7 @@ return {
         "javascript",
         "typescript",
         "angular",
+        "elixir",
       },
 
       -- matchup = {
